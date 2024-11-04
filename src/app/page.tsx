@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo } from "react";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -7,7 +7,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Markdown from "react-markdown";
-import Contact from '@/components/contact';
+import Contact from "@/components/contact";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -39,7 +39,7 @@ const HeroSection = memo(() => (
     </div>
   </section>
 ));
-HeroSection.displayName = 'HeroSection';
+HeroSection.displayName = "HeroSection";
 
 const AboutSection = memo(() => (
   <section id="about">
@@ -53,7 +53,7 @@ const AboutSection = memo(() => (
     </BlurFade>
   </section>
 ));
-AboutSection.displayName = 'AboutSection';
+AboutSection.displayName = "AboutSection";
 
 const WorkSection = memo(() => (
   <section id="work">
@@ -62,10 +62,7 @@ const WorkSection = memo(() => (
         <h2 className="text-xl font-bold">Work Experience</h2>
       </BlurFade>
       {DATA.work.map((work, id) => (
-        <BlurFade
-          key={work.company}
-          delay={BLUR_FADE_DELAY * 6 + id * 0.05}
-        >
+        <BlurFade key={work.company} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
           <ResumeCard
             logoUrl={work.logoUrl}
             altText={work.company}
@@ -81,7 +78,7 @@ const WorkSection = memo(() => (
     </div>
   </section>
 ));
-WorkSection.displayName = 'WorkSection';
+WorkSection.displayName = "WorkSection";
 
 const EducationSection = memo(() => (
   <section id="education">
@@ -108,7 +105,7 @@ const EducationSection = memo(() => (
     </div>
   </section>
 ));
-EducationSection.displayName = 'EducationSection';
+EducationSection.displayName = "EducationSection";
 
 const SkillsSection = memo(() => (
   <section id="skills">
@@ -126,7 +123,7 @@ const SkillsSection = memo(() => (
     </div>
   </section>
 ));
-SkillsSection.displayName = 'SkillsSection';
+SkillsSection.displayName = "SkillsSection";
 
 const HackathonsSection = memo(() => (
   <section id="hackathons">
@@ -136,7 +133,15 @@ const HackathonsSection = memo(() => (
       </BlurFade>
       <BlurFade delay={BLUR_FADE_DELAY * 14}>
         <p className="text-pretty font-sans text-sm text-muted-foreground">
-        During my academic journey, I cultivated a diverse research portfolio that began with correspondence letters during my university years. As my expertise grew, I developed proficiency in comprehensive manuscript writing and statistical data analysis. My research scope has evolved to focus predominantly on ophthalmology, where I have made significant contributions through collaborations with best in the field researchers. My work has been published in several prestigious peer-reviewed journals, with all publications indexed in major scientific databases.
+          During my academic journey, I cultivated a diverse research portfolio
+          that began with correspondence letters during my university years. As
+          my expertise grew, I developed proficiency in comprehensive manuscript
+          writing and statistical data analysis. My research scope has evolved
+          to focus predominantly on ophthalmology, where I have made significant
+          contributions through collaborations with best in the field
+          researchers. My work has been published in several prestigious
+          peer-reviewed journals, with all publications indexed in major
+          scientific databases.
         </p>
       </BlurFade>
       <BlurFade delay={BLUR_FADE_DELAY * 15}>
@@ -148,7 +153,6 @@ const HackathonsSection = memo(() => (
             >
               <HackathonCard
                 title={project.title}
-                description={project.description}
                 location={project.location}
                 dates={project.dates}
                 image={project.image}
@@ -161,7 +165,7 @@ const HackathonsSection = memo(() => (
     </div>
   </section>
 ));
-HackathonsSection.displayName = 'HackathonsSection';
+HackathonsSection.displayName = "HackathonsSection";
 
 // Main component with memoized sections
 export default function Page() {

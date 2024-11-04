@@ -78,7 +78,7 @@ export const DATA = {
       badges: [],
       location: "Sahiwal, Pakistan",
       title: "House Officer (Ophthalmology Dept)",
-      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJOUzfpmyQ6VN30DMBsWxaSp-lncN_-5TF0g&s",
+      logoUrl: "/dhq-logo.webp",
       start: "June 2024",
       end: "Sep 2024",
       description:
@@ -90,7 +90,7 @@ export const DATA = {
       badges: [],
       location: "Lahore, Pakistan",
       title: "Vice-President",
-      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcmrp08vFAy2u33jxp1XUKPJ919vuLB2zvzA&s",
+      logoUrl: "/ajrs-logo.webp",
       start: "2023",
       end: "2024",
       description:
@@ -102,7 +102,7 @@ export const DATA = {
       badges: [],
       location: "Lahore, Pakistan",
       title: "Local Exchange Officer",
-      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVpmdQU1O-2lvPlJsbMgvKONNG13CmJpOvWg&s",
+      logoUrl: "/ifmsa-logo.webp",
       start: "2020",
       end: "2023",
       description:
@@ -114,8 +114,8 @@ export const DATA = {
     {
       school: "Allama Iqbal Medical College",
       href: "https://aimc.edu.pk",
-      degree: "Bachelor of Medicine, Bachelor of Surgery (MBBS)",
-      logoUrl: "https://seeklogo.com/images/A/allama-iqbal-medical-college-lahore-logo-36E08878CD-seeklogo.com.png",
+      degree: "MBBS - Bachelor of Medicine & Surgery",
+      logoUrl: "/aimc-logo.webp",
       start: "2018",
       end: "2024",
       description: "Currently completing medical education with a focus on clinical rotations and research in ophthalmology. Dean's List 2023. Published multiple research articles in ophthalmology and medical education.",
@@ -124,28 +124,28 @@ export const DATA = {
       school: "University of Health Sciences",
       href: "https://uhs.edu.pk",
       degree: "MCAT",
-      logoUrl: "https://upload.wikimedia.org/wikipedia/en/3/3c/University_of_Health_Sciences_Lahore_Logo.svg",
+      logoUrl: "/uhs-logo.webp",
       start: "2018",
       end: "2018",
       description: "Achieved ranking in Top 500 out of 80,000 examinees.",
     },
     {
-      school: "Divisional Public School and Inter College",
+      school: "DPS & Inter College",
       href: "https://dpssahiwal.edu.pk",
-      degree: "Higher Secondary School Certificate (FSc) - 91.7%",
-      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxxHTRvmtwridFwczlz01h7_gxM7mI1Eu0mA&s",
+      degree: "FSc - Higher Secondary School Certificate",
+      logoUrl: "/dps-logo.webp",
       start: "2016",
       end: "2017",
-      description: "Completed pre-medical studies with distinction.",
+      description: "Completed pre-medical studies with distinction. Scored 91.7% in FSc",
     },
     {
-      school: "Divisional Public School",
+      school: "Divisional Public School (DPS)",
       href: "https://dpssahiwal.edu.pk",
-      degree: "Secondary School Certificate - 95.3%",
-      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxxHTRvmtwridFwczlz01h7_gxM7mI1Eu0mA&s",
+      degree: "Matric - Secondary School Certificate",
+      logoUrl: "/dps-logo.webp",
       start: "2014",
       end: "2015",
-      description: "Completed secondary education with excellence.",
+      description: "Completed secondary education with excellence. Scored 95.3% in Matric",
     },
   ],
   // projects: [
@@ -278,7 +278,6 @@ export const DATA = {
       title: "Macular Buckling for Myopic Traction Maculopathy: A Comprehensive Systematic Review and Meta-Analysis",
       dates: "Systematic Review and Meta Analysis",
       location: "American Journal of Ophthalmology",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://pbs.twimg.com/profile_images/875384749874970625/g6re2pLJ_400x400.jpg",
       links: [
         {
@@ -293,7 +292,6 @@ export const DATA = {
       title: "Efficacy and Safety of Lotilaner Ophthalmic Solution (0.25%) for the Treatment of Demodex Blepharitis",
       dates: "Systematic Review and Meta-Analysis",
       location: "American Journal of Ophthalmology",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://pbs.twimg.com/profile_images/875384749874970625/g6re2pLJ_400x400.jpg",
       links: [
         {
@@ -308,7 +306,6 @@ export const DATA = {
       title: "Efficacy of Gabapentinoids in Pain Resolution After Photorefractive Keratectomy: A Systematic Review and Meta-Analysis",
       dates: "Systematic Review and Meta-Analysis",
       location: "AJO International",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://pbs.twimg.com/profile_images/875384749874970625/g6re2pLJ_400x400.jpg",
       links: [
         {
@@ -323,7 +320,6 @@ export const DATA = {
       title: "Comparative Efficacy of Direct Oral Anticoagulants and Low-Molecular-Weight Heparin in Cancer-Associated Thromboembolism",
       dates: "Systematic Review and Meta-Analysis",
       location: "Cureus",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://d13i5xhouzkrd.cloudfront.net/assets/publisher-colored-logos/logo-innovative-cureus.png",
       links: [
         {
@@ -340,7 +336,6 @@ export const DATA = {
       title: "Nodular Posterior Scleritis with Associated Choroiditis Masquerading as a Choroidal Tumor",
       dates: "Case Report",
       location: "Journal of the Pakistan Medical Association",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-2rHfraEgLBcCQZORHEwsUs28t53vVI5mIQ&s",
       links: [
         {
@@ -355,7 +350,6 @@ export const DATA = {
       title: "Abdominal Distention, Immunopositivity, and Aggressive Nature: A Rare Ewing's Sarcoma of the Adrenal Gland",
       dates: "Case Report",
       location: "Radiology Case Reports",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "/RCR.webp",
       links: [
         {
@@ -370,7 +364,6 @@ export const DATA = {
       title: "Concurrent Acute Pancreatitis, Pneumoperitoneum, Pneumoretroperitoneum, and Pneumomediastinum Following ERCP-Related Perforation: A Rare and Insightful Case Study",
       dates: "Case Report",
       location: "Radiology Case Reports",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "/RCR.webp",
       links: [
         {
@@ -387,7 +380,6 @@ export const DATA = {
       title: "Variability in Serum Creatinine is Associated with Waitlist and Post-Liver Transplant Mortality in Patients with Cirrhosis",
       dates: "Letter to the Editor",
       location: "Hepatology",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/348222333_231844899565918_3978845154563614908_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hjKAM4HxOs0Q7kNvgGFQ23m&_nc_zt=23&_nc_ht=scontent-sin6-4.xx&_nc_gid=AmzKTO21ZlUHPf-fZ5nZ8cp&oh=00_AYApij2i94XvKZBbh33hnCdvc96aWNQ5LLMrQRIpOHLRUg&oe=672D2C54",
       links: [
         {
@@ -402,7 +394,6 @@ export const DATA = {
       title: "Long-Term Surgical Results of Anomalous Origin of the Left Coronary Artery from the Pulmonary Artery Repair in Infants and Older Patients",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://www.wiley.com/medias/Wiley-Logo-White.png?context=bWFzdGVyfGltYWdlc3w3NDUzfGltYWdlL3BuZ3xzeXMtbWFzdGVyL2ltYWdlcy9oMTYvaDUwLzg4ODM2Nzk3MjM1NTAvV2lsZXkgTG9nbyBXaGl0ZS5wbmd8Y2IxYmY3M2IyNzE0NTk3NzM1ZjEzYTk5YTQ5YjUzNzE0ZTMzYTcxYmViMjBmMGUwNGU4YjEwZTYwMTYwOGU0Zg",
       links: [
         {
@@ -414,25 +405,9 @@ export const DATA = {
       ],
     },
     {
-      title: "Total Arch Replacement in Patients with Chronic Kidney Disease",
-      dates: "Letter to the Editor",
-      location: "Journal of Cardiac Surgery",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image: "https://www.wiley.com/medias/Wiley-Logo-White.png?context=bWFzdGVyfGltYWdlc3w3NDUzfGltYWdlL3BuZ3xzeXMtbWFzdGVyL2ltYWdlcy9oMTYvaDUwLzg4ODM2Nzk3MjM1NTAvV2lsZXkgTG9nbyBXaGl0ZS5wbmd8Y2IxYmY3M2IyNzE0NTk3NzM1ZjEzYTk5YTQ5YjUzNzE0ZTMzYTcxYmViMjBmMGUwNGU4YjEwZTYwMTYwOGU0Zg",
-      links: [
-        {
-          title: "DOI",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://doi.org/10.1111/jocs.17011",
-          target: "_blank",
-        },
-      ],
-    },
-    {
       title: "Outcomes of Surgical Mitral Valve Replacement: A Benchmark to Assess Transcatheter Technologies",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://www.wiley.com/medias/Wiley-Logo-White.png?context=bWFzdGVyfGltYWdlc3w3NDUzfGltYWdlL3BuZ3xzeXMtbWFzdGVyL2ltYWdlcy9oMTYvaDUwLzg4ODM2Nzk3MjM1NTAvV2lsZXkgTG9nbyBXaGl0ZS5wbmd8Y2IxYmY3M2IyNzE0NTk3NzM1ZjEzYTk5YTQ5YjUzNzE0ZTMzYTcxYmViMjBmMGUwNGU4YjEwZTYwMTYwOGU0Zg",
       links: [
         {
@@ -447,7 +422,6 @@ export const DATA = {
       title: "Intraoperative Renal Hypoxia and Risk of Cardiac Surgery-Associated Acute Kidney Injury",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://www.wiley.com/medias/Wiley-Logo-White.png?context=bWFzdGVyfGltYWdlc3w3NDUzfGltYWdlL3BuZ3xzeXMtbWFzdGVyL2ltYWdlcy9oMTYvaDUwLzg4ODM2Nzk3MjM1NTAvV2lsZXkgTG9nbyBXaGl0ZS5wbmd8Y2IxYmY3M2IyNzE0NTk3NzM1ZjEzYTk5YTQ5YjUzNzE0ZTMzYTcxYmViMjBmMGUwNGU4YjEwZTYwMTYwOGU0Zg",
       links: [
         {
@@ -462,7 +436,6 @@ export const DATA = {
       title: "Plasma Biomarkers and Delirium in Critically Ill Patients After Cardiac Surgery: A Prospective Observational Cohort Study",
       dates: "Letter to the Editor",
       location: "Current Problems in Cardiology",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://images.ctfassets.net/zlnfaxb2lcqx/72P01CCLp50WUFMHAOKoYU/ab29c1aa5d27748a2e6f5f09d002e70a/elsevier_logo_wide.png",
       links: [
         {
@@ -474,10 +447,23 @@ export const DATA = {
       ],
     },
     {
+      title: "Total Arch Replacement in Patients with Chronic Kidney Disease",
+      dates: "Letter to the Editor",
+      location: "Journal of Cardiac Surgery",
+      image: "https://www.wiley.com/medias/Wiley-Logo-White.png?context=bWFzdGVyfGltYWdlc3w3NDUzfGltYWdlL3BuZ3xzeXMtbWFzdGVyL2ltYWdlcy9oMTYvaDUwLzg4ODM2Nzk3MjM1NTAvV2lsZXkgTG9nbyBXaGl0ZS5wbmd8Y2IxYmY3M2IyNzE0NTk3NzM1ZjEzYTk5YTQ5YjUzNzE0ZTMzYTcxYmViMjBmMGUwNGU4YjEwZTYwMTYwOGU0Zg",
+      links: [
+        {
+          title: "DOI",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://doi.org/10.1111/jocs.17011",
+          target: "_blank",
+        },
+      ],
+    },
+    {
       title: "Association Between Admission Serum Phosphate and Risk of Acute Kidney Injury in Critically Ill Patients with Rhabdomyolysis: A Retrospective Study Based on MIMIC-III",
       dates: "Letter to the Editor",
       location: "Injury",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://images.ctfassets.net/zlnfaxb2lcqx/72P01CCLp50WUFMHAOKoYU/ab29c1aa5d27748a2e6f5f09d002e70a/elsevier_logo_wide.png",
       links: [
         {
@@ -492,7 +478,6 @@ export const DATA = {
       title: "Long-Term Effectiveness and Safety of Anti-TNF in Pediatric-Onset Inflammatory Bowel Diseases: A Population-Based Study",
       dates: "Letter to the Editor",
       location: "Digestive and Liver Disease",
-      description: "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image: "https://images.ctfassets.net/zlnfaxb2lcqx/72P01CCLp50WUFMHAOKoYU/ab29c1aa5d27748a2e6f5f09d002e70a/elsevier_logo_wide.png",
       links: [
         {

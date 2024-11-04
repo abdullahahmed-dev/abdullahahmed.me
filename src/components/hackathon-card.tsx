@@ -4,7 +4,6 @@ import { ExternalLink } from "lucide-react";
 
 interface Props {
   title: string;
-  description: string;
   dates: string;
   location: string;
   image?: string;
@@ -16,7 +15,6 @@ interface Props {
 
 export function HackathonCard({
   title,
-  description,
   dates,
   location,
   image,
@@ -37,11 +35,6 @@ export function HackathonCard({
         <h2 className="font-semibold leading-none">{title}</h2>
         {location && (
           <p className="text-sm text-muted-foreground">{location}</p>
-        )}
-        {description && (
-          <span className="prose dark:prose-invert text-sm text-muted-foreground">
-            {description}
-          </span>
         )}
       </div>
       {links && links.length > 0 && (

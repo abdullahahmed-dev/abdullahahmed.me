@@ -30,10 +30,12 @@ const HeroSection = memo(() => (
           />
         </div>
         <BlurFade delay={BLUR_FADE_DELAY}>
-          <Avatar className="size-28 border">
-            <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-            <AvatarFallback>{DATA.initials}</AvatarFallback>
-          </Avatar>
+          <div className="will-change-transform">
+            <Avatar className="size-28 border">
+              <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+              <AvatarFallback>{DATA.initials}</AvatarFallback>
+            </Avatar>
+          </div>
         </BlurFade>
       </div>
     </div>

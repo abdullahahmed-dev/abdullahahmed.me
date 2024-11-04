@@ -56,13 +56,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link
-          rel="preconnect"
-          href="https://pub-83c5db439b40468498f97946200806f7.r2.dev"
-        />
-        <link
-          rel="dns-prefetch"
-          href="https://pub-83c5db439b40468498f97946200806f7.r2.dev"
+        <link rel="preconnect" href="https://abdullahahmed.vercel.app" />
+        <link rel="preconnect" href="https://vercel.com" />
+        <link 
+          rel="preload"
+          href="/me.webp"
+          as="image"
+          type="image/webp"
         />
       </head>
       <body

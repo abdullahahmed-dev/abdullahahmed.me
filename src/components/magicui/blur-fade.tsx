@@ -16,21 +16,22 @@ interface BlurFadeProps {
   inView?: boolean;
   inViewMargin?: `${number}px` | `${number}%`; // Strictly typed margin
   blur?: string;
+  ease?: string | number[];
 }
 
 const BlurFade = ({
   children,
   className,
   variant,
-  duration = 0.4,
+  duration = 0.6,
   delay = 0,
-  yOffset = 6,
+  yOffset = 4,
   inView = false,
   inViewMargin = "-50px",
-  blur = "6px",
+  blur = "4px",
+  ease = [0.22, 1, 0.36, 1],
 }: BlurFadeProps) => {
   const ref = useRef(null);
-  // Type assertion to ensure margin matches expected type
   const inViewResult = useInView(ref, { 
     once: true, 
     margin: inViewMargin as `${number}px` 
@@ -38,8 +39,18 @@ const BlurFade = ({
   const isInView = !inView || inViewResult;
 
   const defaultVariants: Variants = {
-    hidden: { y: yOffset, opacity: 0, filter: `blur(${blur})` },
-    visible: { y: -yOffset, opacity: 1, filter: "blur(0px)" },
+    hidden: { 
+      y: yOffset, 
+      opacity: 0, 
+      filter: `blur(${blur})`,
+      transform: 'translate3d(0, 0, 0)'
+    },
+    visible: { 
+      y: 0,
+      opacity: 1, 
+      filter: "blur(0px)",
+      transform: 'translate3d(0, 0, 0)'
+    },
   };
 
   const combinedVariants = variant || defaultVariants;
@@ -53,11 +64,11 @@ const BlurFade = ({
         exit="hidden"
         variants={combinedVariants}
         transition={{
-          delay: 0.04 + delay,
+          delay: 0.1 + delay,
           duration,
-          ease: "easeOut",
+          ease,
         }}
-        className={className}
+        className={`will-change-transform ${className || ''}`}
       >
         {children}
       </motion.div>

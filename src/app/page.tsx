@@ -8,8 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Markdown from "react-markdown";
 import Contact from "@/components/contact";
-// export const runtime = "edge";
-// export const preferredRegion = "auto";
+
 const BLUR_FADE_DELAY = 0.04;
 
 // Memoized section components for better performance

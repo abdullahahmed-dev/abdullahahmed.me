@@ -4,10 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Add Cloudflare Pages specific config
-  experimental: {
-    runtime: 'edge',
-  },
 }
 
 export default nextConfig

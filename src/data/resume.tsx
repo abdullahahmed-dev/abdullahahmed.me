@@ -278,7 +278,7 @@ export const DATA = {
       title: "Macular Buckling for Myopic Traction Maculopathy: A Comprehensive Systematic Review and Meta-Analysis",
       dates: "Systematic Review and Meta Analysis",
       location: "American Journal of Ophthalmology",
-      image: "https://pbs.twimg.com/profile_images/875384749874970625/g6re2pLJ_400x400.jpg",
+      image: "/ajo-logo.webp",
       links: [
         {
           title: "DOI",
@@ -292,7 +292,7 @@ export const DATA = {
       title: "Efficacy and Safety of Lotilaner Ophthalmic Solution (0.25%) for the Treatment of Demodex Blepharitis",
       dates: "Systematic Review and Meta-Analysis",
       location: "American Journal of Ophthalmology",
-      image: "https://pbs.twimg.com/profile_images/875384749874970625/g6re2pLJ_400x400.jpg",
+      image: "/ajo-logo.webp",
       links: [
         {
           title: "DOI",
@@ -306,7 +306,7 @@ export const DATA = {
       title: "Efficacy of Gabapentinoids in Pain Resolution After Photorefractive Keratectomy: A Systematic Review and Meta-Analysis",
       dates: "Systematic Review and Meta-Analysis",
       location: "AJO International",
-      image: "https://pbs.twimg.com/profile_images/875384749874970625/g6re2pLJ_400x400.jpg",
+      image: "/ajo-logo.webp",
       links: [
         {
           title: "DOI",
@@ -320,7 +320,7 @@ export const DATA = {
       title: "Comparative Efficacy of Direct Oral Anticoagulants and Low-Molecular-Weight Heparin in Cancer-Associated Thromboembolism",
       dates: "Systematic Review and Meta-Analysis",
       location: "Cureus",
-      image: "https://d13i5xhouzkrd.cloudfront.net/assets/publisher-colored-logos/logo-innovative-cureus.png",
+      image: "/cureus-logo.webp",
       links: [
         {
           title: "DOI",
@@ -336,7 +336,7 @@ export const DATA = {
       title: "Nodular Posterior Scleritis with Associated Choroiditis Masquerading as a Choroidal Tumor",
       dates: "Case Report",
       location: "Journal of the Pakistan Medical Association",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-2rHfraEgLBcCQZORHEwsUs28t53vVI5mIQ&s",
+      image: "/jpma-logo.webp",
       links: [
         {
           title: "DOI",
@@ -380,7 +380,7 @@ export const DATA = {
       title: "Variability in Serum Creatinine is Associated with Waitlist and Post-Liver Transplant Mortality in Patients with Cirrhosis",
       dates: "Letter to the Editor",
       location: "Hepatology",
-      image: "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/348222333_231844899565918_3978845154563614908_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hjKAM4HxOs0Q7kNvgGFQ23m&_nc_zt=23&_nc_ht=scontent-sin6-4.xx&_nc_gid=AmzKTO21ZlUHPf-fZ5nZ8cp&oh=00_AYApij2i94XvKZBbh33hnCdvc96aWNQ5LLMrQRIpOHLRUg&oe=672D2C54",
+      image: "/hepatology-logo.webp",
       links: [
         {
           title: "DOI",
@@ -394,7 +394,7 @@ export const DATA = {
       title: "Long-Term Surgical Results of Anomalous Origin of the Left Coronary Artery from the Pulmonary Artery Repair in Infants and Older Patients",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
-      image: "https://www.wiley.com/medias/Wiley-Logo-White.png?context=bWFzdGVyfGltYWdlc3w3NDUzfGltYWdlL3BuZ3xzeXMtbWFzdGVyL2ltYWdlcy9oMTYvaDUwLzg4ODM2Nzk3MjM1NTAvV2lsZXkgTG9nbyBXaGl0ZS5wbmd8Y2IxYmY3M2IyNzE0NTk3NzM1ZjEzYTk5YTQ5YjUzNzE0ZTMzYTcxYmViMjBmMGUwNGU4YjEwZTYwMTYwOGU0Zg",
+      image: "/wiley-logo.webp",
       links: [
         {
           title: "DOI",
@@ -408,7 +408,7 @@ export const DATA = {
       title: "Outcomes of Surgical Mitral Valve Replacement: A Benchmark to Assess Transcatheter Technologies",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
-      image: "https://www.wiley.com/medias/Wiley-Logo-White.png?context=bWFzdGVyfGltYWdlc3w3NDUzfGltYWdlL3BuZ3xzeXMtbWFzdGVyL2ltYWdlcy9oMTYvaDUwLzg4ODM2Nzk3MjM1NTAvV2lsZXkgTG9nbyBXaGl0ZS5wbmd8Y2IxYmY3M2IyNzE0NTk3NzM1ZjEzYTk5YTQ5YjUzNzE0ZTMzYTcxYmViMjBmMGUwNGU4YjEwZTYwMTYwOGU0Zg",
+      image: "/wiley-logo.webp",
       links: [
         {
           title: "DOI",
@@ -422,7 +422,7 @@ export const DATA = {
       title: "Intraoperative Renal Hypoxia and Risk of Cardiac Surgery-Associated Acute Kidney Injury",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
-      image: "https://www.wiley.com/medias/Wiley-Logo-White.png?context=bWFzdGVyfGltYWdlc3w3NDUzfGltYWdlL3BuZ3xzeXMtbWFzdGVyL2ltYWdlcy9oMTYvaDUwLzg4ODM2Nzk3MjM1NTAvV2lsZXkgTG9nbyBXaGl0ZS5wbmd8Y2IxYmY3M2IyNzE0NTk3NzM1ZjEzYTk5YTQ5YjUzNzE0ZTMzYTcxYmViMjBmMGUwNGU4YjEwZTYwMTYwOGU0Zg",
+      image: "/wiley-logo.webp",
       links: [
         {
           title: "DOI",
@@ -436,7 +436,7 @@ export const DATA = {
       title: "Plasma Biomarkers and Delirium in Critically Ill Patients After Cardiac Surgery: A Prospective Observational Cohort Study",
       dates: "Letter to the Editor",
       location: "Current Problems in Cardiology",
-      image: "https://images.ctfassets.net/zlnfaxb2lcqx/72P01CCLp50WUFMHAOKoYU/ab29c1aa5d27748a2e6f5f09d002e70a/elsevier_logo_wide.png",
+      image: "/elsevier-logo.webp",
       links: [
         {
           title: "DOI",
@@ -450,7 +450,7 @@ export const DATA = {
       title: "Total Arch Replacement in Patients with Chronic Kidney Disease",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
-      image: "https://www.wiley.com/medias/Wiley-Logo-White.png?context=bWFzdGVyfGltYWdlc3w3NDUzfGltYWdlL3BuZ3xzeXMtbWFzdGVyL2ltYWdlcy9oMTYvaDUwLzg4ODM2Nzk3MjM1NTAvV2lsZXkgTG9nbyBXaGl0ZS5wbmd8Y2IxYmY3M2IyNzE0NTk3NzM1ZjEzYTk5YTQ5YjUzNzE0ZTMzYTcxYmViMjBmMGUwNGU4YjEwZTYwMTYwOGU0Zg",
+      image: "/wiley-logo.webp",
       links: [
         {
           title: "DOI",
@@ -464,7 +464,7 @@ export const DATA = {
       title: "Association Between Admission Serum Phosphate and Risk of Acute Kidney Injury in Critically Ill Patients with Rhabdomyolysis: A Retrospective Study Based on MIMIC-III",
       dates: "Letter to the Editor",
       location: "Injury",
-      image: "https://images.ctfassets.net/zlnfaxb2lcqx/72P01CCLp50WUFMHAOKoYU/ab29c1aa5d27748a2e6f5f09d002e70a/elsevier_logo_wide.png",
+      image: "/elsevier-logo.webp",
       links: [
         {
           title: "DOI",
@@ -478,7 +478,7 @@ export const DATA = {
       title: "Long-Term Effectiveness and Safety of Anti-TNF in Pediatric-Onset Inflammatory Bowel Diseases: A Population-Based Study",
       dates: "Letter to the Editor",
       location: "Digestive and Liver Disease",
-      image: "https://images.ctfassets.net/zlnfaxb2lcqx/72P01CCLp50WUFMHAOKoYU/ab29c1aa5d27748a2e6f5f09d002e70a/elsevier_logo_wide.png",
+      image: "/elsevier-logo.webp",
       links: [
         {
           title: "DOI",

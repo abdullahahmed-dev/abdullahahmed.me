@@ -11,7 +11,7 @@ export const DATA = {
     "Medical Student and Researcher. I love building things and helping people",
   summary:
     "I'm a fresh medical graduate from Allama Iqbal Medical College, and I've got to say—the human eye absolutely fascinates me. There's something magical about how this tiny organ lets us see the whole world, which is why I've set my heart on becoming an ophthalmologist. Right now, I'm in the thick of USMLE prep (coffee has become my best friend!), chasing my dream of landing an Ophthalmology residency in the US. When I'm not buried in books, you'll find me diving into eye-related research.\n\nI believe every pair of eyes tells a unique story, and I can't wait to be part of the journey in helping people maintain and restore their vision. Whether it's through clinical work or research breakthroughs, I'm determined to make my mark in this field. Always up for connecting with fellow enthusiasts, especially if you share my passion for eye care. Let's chat about medicine, research, or even exchange USMLE study tips!",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.webp",
   skills: [
     "Clinical Research",
     "R-Programming",

@@ -70,7 +70,7 @@ const Profile = ({ profilePic, coverImage, name, tagline, location }: ProfilePro
     <div className="relative w-full overflow-hidden rounded-lg border shadow-sm">
       <BlurredBackground coverImage={coverImage} />
       
-      <div className="relative z-10 backdrop-blur-sm bg-background/60 dark:bg-background/40">
+      <div className="relative z-10 backdrop-blur-sm bg-background/80 sm:bg-background/60 dark:bg-background/60 dark:sm:bg-background/40">
         <div className="w-full h-28 sm:h-40 overflow-hidden">
           <CoverImage coverImage={coverImage} />
         </div>

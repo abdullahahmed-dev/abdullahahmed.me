@@ -13,7 +13,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 // Memoized section components for better performance
 const HeroSection = memo(() => (
-  <section id="hero">
+  <Section id="hero">
     <div className="mx-auto w-full max-w-2xl space-y-8">
       <div className="gap-2 flex justify-between">
         <div className="flex-col flex flex-1 space-y-1.5">
@@ -39,12 +39,12 @@ const HeroSection = memo(() => (
         </BlurFade>
       </div>
     </div>
-  </section>
+  </Section>
 ));
 HeroSection.displayName = "HeroSection";
 
 const AboutSection = memo(() => (
-  <section id="about">
+  <Section id="about">
     <BlurFade delay={BLUR_FADE_DELAY * 3}>
       <h2 className="text-xl font-bold">About me</h2>
     </BlurFade>
@@ -53,12 +53,12 @@ const AboutSection = memo(() => (
         {DATA.summary}
       </Markdown>
     </BlurFade>
-  </section>
+  </Section>
 ));
 AboutSection.displayName = "AboutSection";
 
 const WorkSection = memo(() => (
-  <section id="work">
+  <Section id="work">
     <div className="flex min-h-0 flex-col gap-y-3">
       <BlurFade delay={BLUR_FADE_DELAY * 5}>
         <h2 className="text-xl font-bold">Work Experience</h2>
@@ -78,12 +78,12 @@ const WorkSection = memo(() => (
         </BlurFade>
       ))}
     </div>
-  </section>
+  </Section>
 ));
 WorkSection.displayName = "WorkSection";
 
 const EducationSection = memo(() => (
-  <section id="education">
+  <Section id="education">
     <div className="flex min-h-0 flex-col gap-y-3">
       <BlurFade delay={BLUR_FADE_DELAY * 7}>
         <h2 className="text-xl font-bold">Education</h2>
@@ -105,12 +105,12 @@ const EducationSection = memo(() => (
         </BlurFade>
       ))}
     </div>
-  </section>
+  </Section>
 ));
 EducationSection.displayName = "EducationSection";
 
 const SkillsSection = memo(() => (
-  <section id="skills">
+  <Section id="skills">
     <div className="flex min-h-0 flex-col gap-y-3">
       <BlurFade delay={BLUR_FADE_DELAY * 9}>
         <h2 className="text-xl font-bold">Skills</h2>
@@ -123,12 +123,12 @@ const SkillsSection = memo(() => (
         ))}
       </div>
     </div>
-  </section>
+  </Section>
 ));
 SkillsSection.displayName = "SkillsSection";
 
 const HackathonsSection = memo(() => (
-  <section id="hackathons">
+  <Section id="hackathons">
     <div className="flex min-h-0 flex-col gap-y-3">
       <BlurFade delay={BLUR_FADE_DELAY * 13}>
         <h2 className="text-xl font-bold">Publications</h2>
@@ -165,12 +165,27 @@ const HackathonsSection = memo(() => (
         </ul>
       </BlurFade>
     </div>
-  </section>
+  </Section>
 ));
 HackathonsSection.displayName = "HackathonsSection";
 
-// Main component with memoized sections
-export default function Page() {
+// Add type for better type safety
+type SectionProps = {
+  children: React.ReactNode;
+  id: string;
+  className?: string;
+};
+
+// Create a reusable Section component to reduce repetition
+const Section = memo(({ children, id, className = "" }: SectionProps) => (
+  <section id={id} className={className}>
+    {children}
+  </section>
+));
+Section.displayName = "Section";
+
+// Update the main Page component for better performance
+export default memo(function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <HeroSection />
@@ -182,4 +197,4 @@ export default function Page() {
       <Contact />
     </main>
   );
-}
+});

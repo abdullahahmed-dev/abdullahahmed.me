@@ -6,6 +6,8 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -43,8 +45,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   verification: {
-    google: "",
-    yandex: "",
+    // Remove empty verification or add actual verification strings
+    // google: "your-google-verification-code",
+    // yandex: "your-yandex-verification-code",
   },
 };
 
@@ -56,13 +59,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://abdullahahmed.vercel.app" />
-        <link rel="preconnect" href="https://vercel.com" />
+        <link rel="preconnect" href="https://abdullahahmed.vercel.app" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://vercel.com" crossOrigin="anonymous" />
         <link 
           rel="preload"
           href="/me.webp"
           as="image"
           type="image/webp"
+          fetchPriority="high"
         />
       </head>
       <body
@@ -75,6 +79,8 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
+            <SpeedInsights />
+            <Analytics />
           </TooltipProvider>
         </ThemeProvider>
       </body>

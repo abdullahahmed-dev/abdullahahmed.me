@@ -68,10 +68,17 @@ export default function RootLayout({
           type="image/webp"
           fetchPriority="high"
         />
+        <link 
+          rel="preload"
+          href="/banner.webp"
+          as="image"
+          type="image/webp"
+          fetchPriority="high"
+        />
       </head>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
+          "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-6 sm:py-12 px-6",
           fontSans.variable
         )}
       >

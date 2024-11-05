@@ -45,10 +45,10 @@ export function HackathonCard({
               key={idx}
               target={link.target}
               rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}
-              className="text-sm text-muted-foreground hover:text-foreground flex items-center gap-1"
+              className="text-xs text-muted-foreground hover:text-foreground flex items-center gap-1"
             >
               View Publication
-              <ExternalLink size={14} />
+              <ExternalLink size={10} />
             </Link>
           ))}
         </div>

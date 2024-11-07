@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import Image from 'next/image';
+import { MapPin } from 'lucide-react';
 
 interface ProfileProps {
   profilePic: string;
@@ -45,8 +46,8 @@ const ProfilePicture = memo(({ profilePic }: { profilePic: string }) => (
     <Image 
       src={profilePic}
       alt="Profile"
-      width={80}
-      height={80}
+      width={82}
+      height={82}
       className="relative rounded-full border-2 border-background shadow-md sm:w-24 sm:h-24"
       priority
     />
@@ -56,10 +57,12 @@ const ProfilePicture = memo(({ profilePic }: { profilePic: string }) => (
 ProfilePicture.displayName = 'ProfilePicture';
 
 const ProfileInfo = memo(({ name, tagline, location }: Omit<ProfileProps, 'profilePic' | 'coverImage'>) => (
-  <div className="mt-16 sm:mt-14 space-y-0.5 pb-1">
-    <h1 className="text-lg sm:text-xl font-semibold tracking-tight">{name}</h1>
+  <div className="mt-14 sm:mt-14 space-y-0.5 pb-1">
+    <h1 className="text-xl sm:text-2xl font-semibold tracking-tight">{name}</h1>
     <p className="text-xs sm:text-sm text-muted-foreground">{tagline}</p>
-    <p className="text-xs text-muted-foreground/80">{location}</p>
+    <p className="text-xs text-muted-foreground/80 flex items-center gap-1">
+      <MapPin size={12} />{location}
+    </p>
   </div>
 ));
 
@@ -77,10 +80,14 @@ const Profile = ({ profilePic, coverImage, name, tagline, location }: ProfilePro
         
         <div className="relative px-3 sm:px-4 pb-3 sm:pb-4">
           <div className="flex flex-col ml-2">
-            <div className="absolute -top-8 sm:-top-14">
+            <div className="absolute -top-8 sm:-top-12">
               <ProfilePicture profilePic={profilePic} />
             </div>
-            <ProfileInfo name={name} tagline={tagline} location={location} />
+            <ProfileInfo 
+              name={name} 
+              tagline={tagline} 
+              location={location}
+            />
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ export const DATA = {
   location: "Lahore, Pakistan",
   locationLink: "https://www.google.com/maps/place/lahore",
   description:
-    "Medical Student and Researcher. I love building things and helping people",
+    "Junior Doctor and Researcher",
   summary:
     "Fresh out of medical school, I've found my calling in ophthalmology—there's something truly captivating about how this tiny organ lets us see the world around us. Currently powering through USMLE prep (with plenty of coffee!) while chasing my dream of landing an Ophthalmology residency in the US. My fascination with eye care goes beyond the basics; I'm particularly interested in how emerging research is reshaping the field of ophthalmology. When I'm not immersed in research or studying, you'll catch me on the sports field, hitting the gym, or tinkering with coding projects—believe it or not, programming has become my creative outlet between study sessions! I can't wait to make my mark in eye care, whether through clinical work or research breakthroughs. Always up for connecting with fellow medical enthusiasts—let's chat about medicine, research, or even exchange USMLE study tips!",
   avatarUrl: "/me.webp",

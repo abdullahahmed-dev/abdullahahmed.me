@@ -18,7 +18,7 @@ const HeroSection = memo(() => (
       <BlurFade delay={BLUR_FADE_DELAY}>
         <Profile
           profilePic={DATA.avatarUrl}
-          coverImage="/banner.webp"
+          coverImage="/banner13.webp"
           name={DATA.name}
           tagline={DATA.description}
           location={DATA.location}
@@ -32,7 +32,7 @@ HeroSection.displayName = "HeroSection";
 const AboutSection = memo(() => (
   <Section id="about">
     <BlurFade delay={BLUR_FADE_DELAY * 3}>
-      <h2 className="text-xl font-bold mb-3">About me</h2>
+      <h2 className="text-xl font-bold mb-3 gap-y-2">About me</h2>
     </BlurFade>
     <BlurFade delay={BLUR_FADE_DELAY * 4}>
       <Markdown className="prose max-w-3xl text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
@@ -173,7 +173,7 @@ Section.displayName = "Section";
 // Update the main Page component for better performance
 export default memo(function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
+    <main className="flex flex-col min-h-[100dvh] space-y-8">
       <HeroSection />
       <AboutSection />
       <WorkSection />

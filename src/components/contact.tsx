@@ -106,7 +106,7 @@ ContactHeader.displayName = 'ContactHeader';
 
 // Memoized social links container
 const SocialLinksContainer = memo(() => (
-  <div className="flex flex-row sm:flex-col gap-4 sm:gap-2 justify-center sm:justify-start flex-wrap mt-8 max-w-[650px]">
+  <div className="flex flex-row sm:flex-col gap-4 sm:gap-2 justify-center sm:justify-start flex-wrap mt-2 sm:mt-8 max-w-[650px]">
     {socialLinks.map((link, index) => (
       <SocialLinkItem 
         key={link.platform} 
@@ -121,7 +121,7 @@ SocialLinksContainer.displayName = 'SocialLinksContainer';
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="space-y-12 w-full max-w-[900px] py-12">
+    <section id="contact" className="space-y-6 sm:space-y-12 w-full max-w-[900px] py-12 pb-20 sm:pb-12">
       <ContactHeader />
       <SocialLinksContainer />
     </section>

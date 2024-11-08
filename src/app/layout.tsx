@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic';
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -6,50 +7,24 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
-import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from '@vercel/analytics/react';
+import { siteMetadata } from "@/lib/metadata";
 
+// Dynamically import analytics components
+const SpeedInsights = dynamic(() => 
+  import('@vercel/speed-insights/next').then(mod => mod.SpeedInsights)
+);
+const Analytics = dynamic(() => 
+  import('@vercel/analytics/react').then(mod => mod.Analytics)
+);
+
+// Optimize font loading
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
+  display: 'swap', // Add display swap for better performance
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL(DATA.url),
-  title: {
-    default: DATA.name,
-    template: `%s | ${DATA.name}`,
-  },
-  description: DATA.description,
-  openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.description,
-    url: DATA.url,
-    siteName: `${DATA.name}`,
-    locale: "en_US",
-    type: "website",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
-  },
-  verification: {
-    // Remove empty verification or add actual verification strings
-    // google: "your-google-verification-code",
-    // yandex: "your-yandex-verification-code",
-  },
-};
+export const metadata = siteMetadata;
 
 export default function RootLayout({
   children,
@@ -59,8 +34,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://abdullahahmed.vercel.app" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://vercel.com" crossOrigin="anonymous" />
         <link 
           rel="preload"
           href="/me.webp"
@@ -70,11 +43,13 @@ export default function RootLayout({
         />
         <link 
           rel="preload"
-          href="/banner.webp"
+          href="/banner13.webp"
           as="image"
           type="image/webp"
           fetchPriority="high"
         />
+        <link rel="preconnect" href="https://abdullahahmed.vercel.app" />
+        <link rel="preconnect" href="https://vercel.com" />
       </head>
       <body
         className={cn(
@@ -86,8 +61,12 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
-            <SpeedInsights />
-            <Analytics />
+            {process.env.NODE_ENV === 'production' && (
+              <>
+                <SpeedInsights />
+                <Analytics />
+              </>
+            )}
           </TooltipProvider>
         </ThemeProvider>
       </body>

@@ -11,13 +11,16 @@ interface ProfileProps {
 }
 
 const BlurredBackground = memo(({ coverImage }: { coverImage: string }) => (
-  <div className="absolute inset-0 z-0">
+  <div className="absolute inset-0 z-0 bg-gradient-to-b from-background/80 to-background/40">
     <Image 
       src={coverImage}
       alt=""
       fill
       className="object-cover opacity-10 blur-md"
-      priority
+      priority={false}
+      quality={1}
+      sizes="100vw"
+      loading="lazy"
     />
   </div>
 ));

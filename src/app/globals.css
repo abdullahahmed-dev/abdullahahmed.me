@@ -156,3 +156,7 @@ html {
 [id] {
   scroll-margin-top: 40px; /* Adjust this value to control the amount of space from the top */
 }
+
+.blur-background-placeholder {
+  background: linear-gradient(to bottom, var(--background) 0%, var(--muted) 100%);
+}

@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { Home, GraduationCap, BookOpen, UserPlus, Briefcase, Notebook } from "lucide-react";
+import { Home, School, BookOpen, UserPlus, Briefcase, Notebook } from "lucide-react";
 
 const navItems = [
   {
@@ -33,7 +33,7 @@ const sectionItems = [
   {
     href: "#education",
     label: "Education",
-    icon: GraduationCap,
+    icon: School,
   },
   {
     href: "#hackathons",

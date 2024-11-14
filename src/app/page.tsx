@@ -6,7 +6,6 @@ import { ResumeCard } from "@/components/resume-card";
 // import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
-import Markdown from "react-markdown";
 import Contact from "@/components/contact";
 import Profile from "@/components/banner";
 const BLUR_FADE_DELAY = 0.04;

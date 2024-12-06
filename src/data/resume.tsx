@@ -7,10 +7,18 @@ export const DATA = {
   url: "https://abdullahahmed.me",
   location: "Lahore, Pakistan",
   locationLink: "https://www.google.com/maps/place/lahore",
-  description:
-    "Junior Doctor and Researcher",
+  description: "Junior Doctor and Researcher",
   summary:
-    "Fresh out of medical school, I've found my calling in ophthalmology—there's something truly captivating about how this tiny organ lets us see the world around us. Currently powering through USMLE prep (with plenty of coffee!) while chasing my dream of landing an Ophthalmology residency in the US. My fascination with eye care goes beyond the basics; I'm particularly interested in how emerging research is reshaping the field of ophthalmology. When I'm not immersed in research or studying, you'll catch me on the sports field, hitting the gym, or tinkering with coding projects—believe it or not, programming has become my creative outlet between study sessions! I can't wait to make my mark in eye care, whether through clinical work or research breakthroughs. Always up for connecting with fellow medical enthusiasts—let's chat about medicine, research, or even exchange USMLE study tips!",
+    "Fresh out of medical school, I've found my calling in ophthalmology—there's something truly " +
+    "captivating about how this tiny organ lets us see the world around us. Currently powering " +
+    "through USMLE prep (with plenty of coffee!) while chasing my dream of landing an " +
+    "Ophthalmology residency in the US. My fascination with eye care goes beyond the basics; " +
+    "I'm particularly interested in how emerging research is reshaping the field of ophthalmology. " +
+    "When I'm not immersed in research or studying, you'll catch me on the sports field, hitting " +
+    "the gym, or tinkering with coding projects—believe it or not, programming has become my " +
+    "creative outlet between study sessions! I can't wait to make my mark in eye care, whether " +
+    "through clinical work or research breakthroughs. Always up for connecting with fellow " +
+    "medical enthusiasts—let's chat about medicine, research, or even exchange USMLE study tips!",
   avatarUrl: "/me.webp",
   skills: [
     "Clinical Research",
@@ -78,7 +86,8 @@ export const DATA = {
       logoUrl: "/aimc-logo.webp",
       start: "2018",
       end: "2024",
-      description: "Currently completing medical education with a focus on clinical rotations and research in ophthalmology. Dean's List 2023. Published multiple research articles in ophthalmology and medical education.",
+      description:
+        "Currently completing medical education with a focus on clinical rotations and research in ophthalmology. Dean's List 2023. Published multiple research articles in ophthalmology and medical education.",
     },
     {
       school: "University of Health Sciences",
@@ -96,7 +105,8 @@ export const DATA = {
       logoUrl: "/dps-logo.webp",
       start: "2016",
       end: "2017",
-      description: "Completed pre-medical studies with distinction. Scored 91.7% in FSc",
+      description:
+        "Completed pre-medical studies with distinction. Scored 91.7% in FSc",
     },
     {
       school: "Divisional Public School (DPS)",
@@ -105,7 +115,8 @@ export const DATA = {
       logoUrl: "/dps-logo.webp",
       start: "2014",
       end: "2015",
-      description: "Completed secondary education with excellence. Scored 95.3% in Matric",
+      description:
+        "Completed secondary education with excellence. Scored 95.3% in Matric",
     },
   ],
   // projects: [
@@ -235,7 +246,8 @@ export const DATA = {
   hackathons: [
     // Meta Analyses
     {
-      title: "Macular Buckling for Myopic Traction Maculopathy: A Comprehensive Systematic Review and Meta-Analysis",
+      title:
+        "Macular Buckling for Myopic Traction Maculopathy: A Comprehensive Systematic Review and Meta-Analysis",
       dates: "Systematic Review and Meta Analysis",
       location: "American Journal of Ophthalmology",
       image: "/ajo-logo.webp",
@@ -249,7 +261,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Efficacy and Safety of Lotilaner Ophthalmic Solution (0.25%) for the Treatment of Demodex Blepharitis",
+      title:
+        "Efficacy and Safety of Lotilaner Ophthalmic Solution (0.25%) for the Treatment of Demodex Blepharitis",
       dates: "Systematic Review and Meta-Analysis",
       location: "American Journal of Ophthalmology",
       image: "/ajo-logo.webp",
@@ -263,7 +276,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Efficacy of Gabapentinoids in Pain Resolution After Photorefractive Keratectomy: A Systematic Review and Meta-Analysis",
+      title:
+        "Efficacy of Gabapentinoids in Pain Resolution After Photorefractive Keratectomy: A Systematic Review and Meta-Analysis",
       dates: "Systematic Review and Meta-Analysis",
       location: "AJO International",
       image: "/ajo-logo.webp",
@@ -277,7 +291,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Comparative Efficacy of Direct Oral Anticoagulants and Low-Molecular-Weight Heparin in Cancer-Associated Thromboembolism",
+      title:
+        "Comparative Efficacy of Direct Oral Anticoagulants and Low-Molecular-Weight Heparin in Cancer-Associated Thromboembolism",
       dates: "Systematic Review and Meta-Analysis",
       location: "Cureus",
       image: "/cureus-logo.webp",
@@ -290,10 +305,40 @@ export const DATA = {
         },
       ],
     },
+    {
+      title: "Blurred vision: The ophthalmological effect of smog in Pakistan",
+      dates: "Short Communication",
+      location: "Dialogues in Health",
+      image: "/elsevier-logo.webp",
+      links: [
+        {
+          title: "DOI",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://doi.org/10.1016/j.dialog.2024.100199",
+          target: "_blank",
+        },
+      ],
+    },
 
     // Case Reports
     {
-      title: "Nodular Posterior Scleritis with Associated Choroiditis Masquerading as a Choroidal Tumor",
+      title:
+        "Bilateral improvement in age-related macular degeneration following unilateral Aflibercept injection",
+      dates: "Case Report",
+      location: "BMC Ophthalmology",
+      image: "/bmc-logo.webp",
+      links: [
+        {
+          title: "DOI",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://doi.org/10.1186/s12886-024-03795-x",
+          target: "_blank",
+        },
+      ],
+    },
+    {
+      title:
+        "Nodular Posterior Scleritis with Associated Choroiditis Masquerading as a Choroidal Tumor",
       dates: "Case Report",
       location: "Journal of the Pakistan Medical Association",
       image: "/jpma-logo.webp",
@@ -307,7 +352,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Abdominal Distention, Immunopositivity, and Aggressive Nature: A Rare Ewing's Sarcoma of the Adrenal Gland",
+      title:
+        "Abdominal Distention, Immunopositivity, and Aggressive Nature: A Rare Ewing's Sarcoma of the Adrenal Gland",
       dates: "Case Report",
       location: "Radiology Case Reports",
       image: "/RCR.webp",
@@ -321,7 +367,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Concurrent Acute Pancreatitis, Pneumoperitoneum, Pneumoretroperitoneum, and Pneumomediastinum Following ERCP-Related Perforation: A Rare and Insightful Case Study",
+      title:
+        "Concurrent Acute Pancreatitis, Pneumoperitoneum, Pneumoretroperitoneum, and Pneumomediastinum Following ERCP-Related Perforation: A Rare and Insightful Case Study",
       dates: "Case Report",
       location: "Radiology Case Reports",
       image: "/RCR.webp",
@@ -337,7 +384,8 @@ export const DATA = {
 
     // Letters to the Editor
     {
-      title: "Variability in Serum Creatinine is Associated with Waitlist and Post-Liver Transplant Mortality in Patients with Cirrhosis",
+      title:
+        "Variability in Serum Creatinine is Associated with Waitlist and Post-Liver Transplant Mortality in Patients with Cirrhosis",
       dates: "Letter to the Editor",
       location: "Hepatology",
       image: "/hepatology-logo.webp",
@@ -351,7 +399,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Long-Term Surgical Results of Anomalous Origin of the Left Coronary Artery from the Pulmonary Artery Repair in Infants and Older Patients",
+      title:
+        "Long-Term Surgical Results of Anomalous Origin of the Left Coronary Artery from the Pulmonary Artery Repair in Infants and Older Patients",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
       image: "/wiley-logo.webp",
@@ -365,7 +414,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Outcomes of Surgical Mitral Valve Replacement: A Benchmark to Assess Transcatheter Technologies",
+      title:
+        "Outcomes of Surgical Mitral Valve Replacement: A Benchmark to Assess Transcatheter Technologies",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
       image: "/wiley-logo.webp",
@@ -379,7 +429,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Intraoperative Renal Hypoxia and Risk of Cardiac Surgery-Associated Acute Kidney Injury",
+      title:
+        "Intraoperative Renal Hypoxia and Risk of Cardiac Surgery-Associated Acute Kidney Injury",
       dates: "Letter to the Editor",
       location: "Journal of Cardiac Surgery",
       image: "/wiley-logo.webp",
@@ -393,7 +444,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Plasma Biomarkers and Delirium in Critically Ill Patients After Cardiac Surgery: A Prospective Observational Cohort Study",
+      title:
+        "Plasma Biomarkers and Delirium in Critically Ill Patients After Cardiac Surgery: A Prospective Observational Cohort Study",
       dates: "Letter to the Editor",
       location: "Current Problems in Cardiology",
       image: "/elsevier-logo.webp",
@@ -421,7 +473,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Association Between Admission Serum Phosphate and Risk of Acute Kidney Injury in Critically Ill Patients with Rhabdomyolysis: A Retrospective Study Based on MIMIC-III",
+      title:
+        "Association Between Admission Serum Phosphate and Risk of Acute Kidney Injury in Critically Ill Patients with Rhabdomyolysis: A Retrospective Study Based on MIMIC-III",
       dates: "Letter to the Editor",
       location: "Injury",
       image: "/elsevier-logo.webp",
@@ -435,7 +488,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Long-Term Effectiveness and Safety of Anti-TNF in Pediatric-Onset Inflammatory Bowel Diseases: A Population-Based Study",
+      title:
+        "Long-Term Effectiveness and Safety of Anti-TNF in Pediatric-Onset Inflammatory Bowel Diseases: A Population-Based Study",
       dates: "Letter to the Editor",
       location: "Digestive and Liver Disease",
       image: "/elsevier-logo.webp",
@@ -450,4 +504,3 @@ export const DATA = {
     },
   ],
 } as const;
-

@@ -29,7 +29,7 @@ const socialLinks: SocialLink[] = [
     Icon: FaInstagram,
   },
   {
-    platform: "X (Twitter)",
+    platform: "X",
     url: "https://x.com/abdullahmujadad",
     Icon: FaXTwitter,
   },

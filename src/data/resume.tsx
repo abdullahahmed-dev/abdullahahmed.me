@@ -50,7 +50,7 @@ export const DATA = {
       start: "June 2024",
       end: "Sep 2024",
       description:
-        "Did a 3 months rotation as a clinical house officer in DHQ Teaching Hosp, Sahiwal which is affiliated with Sahiwal Medical College. ",
+        "Completed a comprehensive three-month clinical rotation in ophthalmology at DHQ Teaching Hospital, a major tertiary care facility affiliated with Sahiwal Medical College, managing both outpatient and inpatient care under direct supervision. ",
     },
     {
       company: "AIMC/JHL Research Society (AJRS)",
@@ -62,7 +62,7 @@ export const DATA = {
       start: "2023",
       end: "2024",
       description:
-        "Organised and managed several online workshops regarding basics of research. Served as a trainer in online workshops conducted by AJRS and guided junior researchers.",
+        "Led a dynamic team of 50+ members while establishing research collaborations across institutions. Supervised and mentored over 100 medical students in research methodology and scientific writing, while organizing monthly journal clubs and research sessions. Successfully expanded society membership from 500 to 1000+ members and established international research partnerships. Regularly conducted workshops on research basics and served as a trainer for junior researchers.",
     },
     {
       company: "IFMSA Pakistan – AIMC Local Chapter",
@@ -74,7 +74,7 @@ export const DATA = {
       start: "2020",
       end: "2023",
       description:
-        "Organized a comprehensive 2-day Basic Life Saving Training Program, providing essential life-saving skills. Facilitated a successful Cervical Cancer Awareness Webinar, educating students on preventive measures and early detection methods. Led the planning and execution of an Online Workshop, 'Brainiac Camp,' focusing on teaching students the fundamentals of research. Coordinated logistics, secured speakers, and managed promotional activities for IFMSA events, ensuring high attendance and engagement.",
+        "Spearheaded multiple successful initiatives including a 2-day Basic Life Saving Training Program with 250+ attendees, and the 'I-CAN-CERVIVE' cervical cancer awareness webinar. Contributed to the 'When Breath Becomes Air' cancer awareness campaign and led the 'Brainiac Camp' workshop on research fundamentals. Managed event logistics, speaker coordination, and promotional activities to ensure successful execution of all IFMSA programs.",
     },
   ],
 
@@ -244,6 +244,35 @@ export const DATA = {
   //   },
   // ],
   hackathons: [
+    // EyeWiki Contributions
+    {
+      title: "Wipe-Out or Snuff-Out Phenomenon after Glaucoma Surgery",
+      dates: "EyeWiki Contribution",
+      location: "American Academy of Ophthalmology",
+      image: "/aao-logo.webp",
+      links: [
+        {
+          title: "View Contribution",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://eyewiki.org/Wipe-Out_or_Snuff-Out_Phenomenon_after_Glaucoma_Surgery",
+          target: "_blank",
+        },
+      ],
+    },
+    {
+      title: "Unexplained Visual Loss After Silicone Oil Removal",
+      dates: "EyeWiki Contribution",
+      location: "American Academy of Ophthalmology",
+      image: "/aao-logo.webp",
+      links: [
+        {
+          title: "View Contribution",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://eyewiki.org/Unexplained_Visual_Loss_After_Silicone_Oil_Removal",
+          target: "_blank",
+        },
+      ],
+    },
     // Meta Analyses
     {
       title:
@@ -489,7 +518,7 @@ export const DATA = {
     },
     {
       title:
-        "Long-Term Effectiveness and Safety of Anti-TNF in Pediatric-Onset Inflammatory Bowel Diseases: A Population-Based Study",
+        "Long-Term Effectiveness and Safety of Anti-TNF in Pediatric-Onset Inflammatory Bowel Disease: A Population-Based Study",
       dates: "Letter to the Editor",
       location: "Digestive and Liver Disease",
       image: "/elsevier-logo.webp",
